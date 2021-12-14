@@ -1,0 +1,1 @@
+(()=>{console.log("Hello world");let e=document.querySelector("#content");console.table(e),e.innerHTML="hello world"})();
