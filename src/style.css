@@ -1,0 +1,16 @@
+.nav{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+.navItem{
+    border:2px solid black;
+    flex:0 0 20px;
+    padding:5px;
+}
+.pic{
+    height:50px;
+    width:50px;
+    background-color: darkolivegreen;
+    border-radius: 5px;
+}
