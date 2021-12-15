@@ -1,17 +1,18 @@
 const menuPage = () => {
-    let html = ''
     let mainDiv = document.createElement('div')
-    let pic = document.createElement('div')
-    pic.classList.add('pic')
+    mainDiv.classList.add('menuDiv')
+    for (let i =0; i<5; i++){
+        let menuItem = document.createElement('div')
+        menuItem.classList.add('menuItem')
+        let pic = document.createElement('div')
+        pic.classList.add('menupic','pic')
+        menuItem.appendChild(pic)
+        let paragraphDiv = document.createElement('div')
+        paragraphDiv.innerText = `Menu Item ${i+1}`
+        menuItem.appendChild(paragraphDiv)
+        mainDiv.appendChild(menuItem)
+    }
     
-    let paragraphDiv = document.createElement('div')
-    mainDiv.appendChild(pic)
-    paragraphDiv.innerText = 'Menu'
-    mainDiv.appendChild(paragraphDiv)
-    
-    
-    
-    html = mainDiv;
-        return html;
+        return mainDiv;
     }
     export default menuPage;
