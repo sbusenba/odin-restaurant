@@ -3,13 +3,33 @@
     flex-direction:row;
     justify-content:space-evenly;
     padding:10px;
-    margin:10px;
+    
     border:2px solid black;
+}
+.title{
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    padding:20px;
+    display: flex;
+    text-align:end;
+}
+.header{
+    margin:10px;
+    background-color: goldenrod;
+
 }
 .navItem{
     border:2px solid black;
     flex:0 0 20px;
     padding:5px;
+    border-radius:2px;
+}
+.mainPic{
+    height:200px;
+    width:400px;
+    background-color: goldenrod;
+    border-radius:5px;
 }
 .pic{
     height:100px;
@@ -18,7 +38,7 @@
     border-radius: 2px;
 }
 .navItem.selected{
-    background-color: rgb(158, 158, 158);
+    background-color: rgb(233, 151, 0);
 }
 
 .menuDiv{

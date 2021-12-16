@@ -1,14 +1,13 @@
-console.log('Hello world')
-let contentDiv = document.querySelector('#content')
-console.table(contentDiv)
+
+
 import myNav from './myNav'
 import mainPage from './mainPage'
 import contactPage from './contactPage'
 import menuPage from './menuPage'
 import './style.css';
 
+
 function clickedNav(){
-    console.log(this.innerText)
     while (contentDiv.hasChildNodes()){
         contentDiv.removeChild(contentDiv.firstChild)
     }
@@ -43,6 +42,6 @@ function addNav(navText){
     
 
 }
-
+let contentDiv = document.querySelector('#content')
 addNav('Main')
 contentDiv.appendChild(mainPage())
