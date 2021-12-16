@@ -1,5 +1,7 @@
 const contactPage = () => {
-    let html = ''
+    
+
+
     let contactDiv = document.createElement('div')
     contactDiv.classList.add('contactDiv')
     let mainDiv = document.createElement('div')
@@ -7,11 +9,16 @@ const contactPage = () => {
     pic.classList.add('contactPic')
     mainDiv.appendChild(pic)  
 
-    let paragraphDiv = document.createElement('div')
-    paragraphDiv.innerText = 'Contact info'
-    mainDiv.appendChild(paragraphDiv)
+    let toContact = document.createElement('div')
+    toContact.innerText = 'To Contact:'
+    toContact.classList.add('toContact')
+    mainDiv.appendChild(toContact)
+    let contactAdd = document.createElement('div')
+    contactAdd.innerText = "Please write an imaginary letter, addressed to an imaginary address, and await our response!"
+    contactAdd.classList.add('contactInfo')
+    mainDiv.appendChild(contactAdd)
     contactDiv.appendChild(mainDiv)
-    html = contactDiv;
-        return html;
+    
+        return contactDiv;
     }
     export default contactPage;

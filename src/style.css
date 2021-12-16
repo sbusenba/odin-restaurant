@@ -14,10 +14,19 @@
     display: flex;
     text-align:end;
 }
+.toContact{
+    font-size: larger;
+    font-weight: 700;
+    text-align:center;
+}
 .header{
     margin:10px;
     background-color: goldenrod;
 
+}
+.contactInfo{
+    width:200px;
+    text-align:center;
 }
 .navItem{
     border:2px solid black;
