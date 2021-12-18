@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \".nav{\\n    display:flex;\\n    flex-direction:row;\\n    justify-content:space-evenly;\\n    padding:10px;\\n    \\n    border:2px solid black;\\n}\\n.title{\\n    font-size: xx-large;\\n    font-family: Arial, Helvetica, sans-serif;\\n    \\n    padding:20px;\\n    display: flex;\\n    text-align:end;\\n}\\n.toContact{\\n    font-size: larger;\\n    font-weight: 700;\\n    text-align:center;\\n}\\n.header{\\n    margin:10px;\\n    background-color: goldenrod;\\n\\n}\\n.contactInfo{\\n    width:200px;\\n    text-align:center;\\n}\\n.navItem{\\n    border:2px solid black;\\n    flex:0 0 20px;\\n    padding:5px;\\n    border-radius:2px;\\n}\\n.mainPic{\\n    height:200px;\\n    width:400px;\\n    background-color: goldenrod;\\n    border-radius:5px;\\n}\\n.pic{\\n    height:100px;\\n    width:100px;\\n    background-color: darkolivegreen;\\n    border-radius: 2px;\\n}\\n.navItem.selected{\\n    background-color: rgb(233, 151, 0);\\n}\\n\\n.menuDiv{\\n    display:flex;\\n    flex-direction:column;\\n    justify-content:space-evenly;\\n    align-items:space-around;\\n    \\n}\\n.menuItem{\\n    display:flex;\\n    flex-direction:row;\\n    justify-content:space-around;\\n    align-items:center;\\n    padding:10px;\\n    border:2px solid black;\\n\\n}\\n.itemDiv{\\n    display:flex;\\n    flex:0 0 100px;\\n}\\n.contactDiv{\\n    display:flex;\\n    flex-direction:column;\\n    align-items:center;\\n    justify-content: space-around;\\n    \\n}\\n.contactPic{\\n    height:200px;\\n    width:200px;\\n    background-color: dodgerblue;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://odin-restaraunt-page/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \".nav{\\n    display:flex;\\n    flex-direction:row;\\n    justify-content:space-evenly;\\n    padding:10px;\\n    \\n    border:2px solid black;\\n}\\n.title{\\n    font-size: xx-large;\\n    font-family: Arial, Helvetica, sans-serif;\\n    \\n    padding:20px;\\n    display: flex;\\n    text-align:end;\\n}\\n.toContact{\\n    font-size: larger;\\n    font-weight: 700;\\n    text-align:center;\\n}\\n.header{\\n    margin:10px;\\n    background-color: goldenrod;\\n\\n}\\n.contactInfo{\\n    width:200px;\\n    text-align:center;\\n}\\n.navItem{\\n    border:2px solid black;\\n    flex:0 0 20px;\\n    padding:5px;\\n    border-radius:2px;\\n}\\n.mainPic{\\n    height:200px;\\n    width:400px;\\n    background-color: goldenrod;\\n    border-radius:5px;\\n}\\n.pic{\\n    height:150px;\\n    width:150px;\\n    flex:0 0 150px;\\n    background-color: darkolivegreen;\\n    border-radius: 2px;\\n}\\n.navItem.selected{\\n    background-color: rgb(233, 151, 0);\\n}\\n\\n.menuDiv{\\n    display:flex;\\n    flex-direction:column;\\n    justify-content:space-evenly;\\n    align-items:space-around;\\n    \\n}\\n.menuItemName{\\n    font-size:36px;\\n    font-weight:700;\\n    padding:10px;\\n}\\n.menuText{\\n    padding:10px;\\n\\n    flex:1 1 250;\\n\\n}\\n.menuItem{\\n    display:flex;\\n    flex-direction:row;\\n    padding:10px;\\n    border:2px solid black;\\n    margin:10px auto;\\n    width:600px;\\n}\\n.menuPic{\\n    flex:0 0 150px;\\n}\\n.itemDiv{\\n    display:flex;\\n    flex:0 0 100px;\\n}\\n.contactDiv{\\n    display:flex;\\n    flex-direction:column;\\n    align-items:center;\\n    justify-content: space-around;\\n    \\n}\\n.contactPic{\\n    height:200px;\\n    width:200px;\\n    background-color: dodgerblue;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://odin-restaraunt-page/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -126,7 +126,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _myNav__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./myNav */ \"./src/myNav.js\");\n/* harmony import */ var _mainPage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./mainPage */ \"./src/mainPage.js\");\n/* harmony import */ var _contactPage__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./contactPage */ \"./src/contactPage.js\");\n/* harmony import */ var _menuPage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./menuPage */ \"./src/menuPage.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\n\n\n\n\n\n\n\nfunction clickedNav(){\n    while (contentDiv.hasChildNodes()){\n        contentDiv.removeChild(contentDiv.firstChild)\n    }\n    addNav(this.innerText)\n    document.querySelectorAll('.navItem')\n\n    switch(this.innerText){\n        case 'Main':\n            contentDiv.appendChild((0,_mainPage__WEBPACK_IMPORTED_MODULE_1__[\"default\"])())\n        break;\n        case 'Menu':\n            contentDiv.appendChild((0,_menuPage__WEBPACK_IMPORTED_MODULE_3__[\"default\"])())\n        break;\n        case 'Contact':\n            contentDiv.appendChild((0,_contactPage__WEBPACK_IMPORTED_MODULE_2__[\"default\"])())\n            break;\n\n\n    }\n}\n\nfunction addNav(navText){\n    contentDiv.appendChild((0,_myNav__WEBPACK_IMPORTED_MODULE_0__[\"default\"])())\n    let navButtons = Array(...document.querySelectorAll('.navItem'))\n    navButtons.forEach((button)=> {\n        button.addEventListener('click',clickedNav)\n        if (button.innerText == navText){\n            button.classList.add('selected')\n        }\n    })\n    \n    \n\n}\nlet contentDiv = document.querySelector('#content')\naddNav('Main')\ncontentDiv.appendChild((0,_mainPage__WEBPACK_IMPORTED_MODULE_1__[\"default\"])())\n\n\n//# sourceURL=webpack://odin-restaraunt-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _myNav__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./myNav */ \"./src/myNav.js\");\n/* harmony import */ var _mainPage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./mainPage */ \"./src/mainPage.js\");\n/* harmony import */ var _contactPage__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./contactPage */ \"./src/contactPage.js\");\n/* harmony import */ var _menuPage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./menuPage */ \"./src/menuPage.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _imgs_chalice_jpeg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./imgs/chalice.jpeg */ \"./src/imgs/chalice.jpeg\");\n/* harmony import */ var _imgs_setting1_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./imgs/setting1.jpg */ \"./src/imgs/setting1.jpg\");\n/* harmony import */ var _imgs_setting2_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./imgs/setting2.jpg */ \"./src/imgs/setting2.jpg\");\n/* harmony import */ var _imgs_setting3_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./imgs/setting3.jpg */ \"./src/imgs/setting3.jpg\");\n/* harmony import */ var _imgs_setting4_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./imgs/setting4.jpg */ \"./src/imgs/setting4.jpg\");\n/* harmony import */ var _imgs_setting5_jpeg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./imgs/setting5.jpeg */ \"./src/imgs/setting5.jpeg\");\n\n\n\n\n\n\n\n\n\n\n\n\n\nfunction clickedNav(){\n    while (contentDiv.hasChildNodes()){\n        contentDiv.removeChild(contentDiv.firstChild)\n    }\n    addNav(this.innerText)\n    document.querySelectorAll('.navItem')\n\n    switch(this.innerText){\n        case 'Main':\n            contentDiv.appendChild((0,_mainPage__WEBPACK_IMPORTED_MODULE_1__[\"default\"])())\n        break;\n        case 'Menu':\n            contentDiv.appendChild((0,_menuPage__WEBPACK_IMPORTED_MODULE_3__[\"default\"])())\n            let menuPic0 = document.querySelector('.menuPic0')\n            menuPic0.setAttribute('src',_imgs_chalice_jpeg__WEBPACK_IMPORTED_MODULE_5__)\n            let menuPic1 = document.querySelector('.menuPic1')\n            menuPic1.setAttribute('src',_imgs_setting1_jpg__WEBPACK_IMPORTED_MODULE_6__)\n\n            let menuPic2 = document.querySelector('.menuPic2')\n            menuPic2.setAttribute('src',_imgs_setting2_jpg__WEBPACK_IMPORTED_MODULE_7__)\n\n            let menuPic3 = document.querySelector('.menuPic3')\n            menuPic3.setAttribute('src',_imgs_setting3_jpg__WEBPACK_IMPORTED_MODULE_8__)\n\n            let menuPic4 = document.querySelector('.menuPic4')\n            menuPic4.setAttribute('src',_imgs_setting4_jpg__WEBPACK_IMPORTED_MODULE_9__)\n\n        break;\n        case 'Contact':\n            contentDiv.appendChild((0,_contactPage__WEBPACK_IMPORTED_MODULE_2__[\"default\"])())\n            break;\n\n\n    }\n}\n\nfunction addNav(navText){\n    contentDiv.appendChild((0,_myNav__WEBPACK_IMPORTED_MODULE_0__[\"default\"])())\n    let navButtons = Array(...document.querySelectorAll('.navItem'))\n    navButtons.forEach((button)=> {\n        button.addEventListener('click',clickedNav)\n        if (button.innerText == navText){\n            button.classList.add('selected')\n        }\n    })\n    \n    \n\n}\nlet contentDiv = document.querySelector('#content')\naddNav('Main')\ncontentDiv.appendChild((0,_mainPage__WEBPACK_IMPORTED_MODULE_1__[\"default\"])())\n\n\n//# sourceURL=webpack://odin-restaraunt-page/./src/index.js?");
 
 /***/ }),
 
@@ -146,7 +146,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst menuPage = () => {\n    let mainDiv = document.createElement('div')\n    mainDiv.classList.add('menuDiv')\n    for (let i =0; i<5; i++){\n        let menuItem = document.createElement('div')\n        menuItem.classList.add('menuItem')\n        let pic = document.createElement('div')\n        pic.classList.add('menupic','pic')\n        menuItem.appendChild(pic)\n        let paragraphDiv = document.createElement('div')\n        paragraphDiv.innerText = `Menu Item ${i+1}`\n        menuItem.appendChild(paragraphDiv)\n        mainDiv.appendChild(menuItem)\n    }\n    \n        return mainDiv;\n    }\n    /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (menuPage);\n\n//# sourceURL=webpack://odin-restaraunt-page/./src/menuPage.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst menuPage = () => {\n    let mainDiv = document.createElement('div')\n    mainDiv.classList.add('menuDiv')\n    let foods = ['Nectar',\n        'Ambrosia',\n        'Soylent Green',\n        'An Everelasting Gobstopper',\n        'Stone Soup']\n    let foodDescs = ['Drink of the Greek and Roman gods',\n                'Food of the Greek and Roman gods',\n                'This delicious delicacy contains a special secret ingredient!',\n                'Flavor that lasts forever',\n                'This savory soup is a childhood favorite']\n    let foodImgClasse = []\n    for (let i =0; i<5; i++){\n        let menuItem = document.createElement('div')\n        menuItem.classList.add('menuItem')\n        let pic = document.createElement('img')\n        pic.classList.add(`menuPic${i}`,'pic')\n        menuItem.appendChild(pic)\n\n        let menuTextDiv = document.createElement('div')\n        menuTextDiv.classList.add('menuText')\n        let menuItemName = document.createElement('div')\n        menuItemName.classList.add('menuItemName')\n        menuItemName.innerText = foods[i]\n        let menuDescText = document.createElement('div')\n        menuDescText.innerText = foodDescs[i]\n        menuTextDiv.appendChild(menuItemName)\n        menuTextDiv.appendChild(menuDescText)\n\n        menuItem.appendChild(menuTextDiv)\n        mainDiv.appendChild(menuItem)\n    }\n    \n        return mainDiv;\n    }\n    /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (menuPage);\n\n//# sourceURL=webpack://odin-restaraunt-page/./src/menuPage.js?");
 
 /***/ }),
 
@@ -157,6 +157,66 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst myNav = () => {\nlet html = ''\nlet header = document.createElement('div')\nheader.classList.add('header')\nlet title  = document.createElement('div')\ntitle.classList.add('title')\ntitle.innerText='Malarky'\nheader.appendChild(title)\n\nlet navBar = document.createElement('div')\nnavBar.classList.add('nav')\nlet navText = ['Main','Menu','Contact']\nfor(let i= 0;i<3;i++){\n    let navItem = document.createElement('div')\n    navItem.classList.add('navItem')\n    navItem.innerText = navText[i]\n    navBar.appendChild(navItem)\n}\nheader.appendChild(navBar)\n    return header;\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (myNav);\n\n//# sourceURL=webpack://odin-restaraunt-page/./src/myNav.js?");
+
+/***/ }),
+
+/***/ "./src/imgs/chalice.jpeg":
+/*!*******************************!*\
+  !*** ./src/imgs/chalice.jpeg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"be7745d2782c514b183c.jpeg\";\n\n//# sourceURL=webpack://odin-restaraunt-page/./src/imgs/chalice.jpeg?");
+
+/***/ }),
+
+/***/ "./src/imgs/setting1.jpg":
+/*!*******************************!*\
+  !*** ./src/imgs/setting1.jpg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"985cbd0ab35f972bccca.jpg\";\n\n//# sourceURL=webpack://odin-restaraunt-page/./src/imgs/setting1.jpg?");
+
+/***/ }),
+
+/***/ "./src/imgs/setting2.jpg":
+/*!*******************************!*\
+  !*** ./src/imgs/setting2.jpg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"1000f336c12434b86dae.jpg\";\n\n//# sourceURL=webpack://odin-restaraunt-page/./src/imgs/setting2.jpg?");
+
+/***/ }),
+
+/***/ "./src/imgs/setting3.jpg":
+/*!*******************************!*\
+  !*** ./src/imgs/setting3.jpg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"db046872b1dbae4c0605.jpg\";\n\n//# sourceURL=webpack://odin-restaraunt-page/./src/imgs/setting3.jpg?");
+
+/***/ }),
+
+/***/ "./src/imgs/setting4.jpg":
+/*!*******************************!*\
+  !*** ./src/imgs/setting4.jpg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"db54f807fe35c9cd3987.jpg\";\n\n//# sourceURL=webpack://odin-restaraunt-page/./src/imgs/setting4.jpg?");
+
+/***/ }),
+
+/***/ "./src/imgs/setting5.jpeg":
+/*!********************************!*\
+  !*** ./src/imgs/setting5.jpeg ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"47dc97c7e8a6484b6c4d.jpeg\";\n\n//# sourceURL=webpack://odin-restaraunt-page/./src/imgs/setting5.jpeg?");
 
 /***/ })
 
@@ -211,6 +271,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -225,6 +297,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
