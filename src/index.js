@@ -28,16 +28,12 @@ function clickedNav(){
             menuPic0.setAttribute('src',chalicePic)
             let menuPic1 = document.querySelector('.menuPic1')
             menuPic1.setAttribute('src',menuPicZero)
-
             let menuPic2 = document.querySelector('.menuPic2')
             menuPic2.setAttribute('src',menuPicOne)
-
             let menuPic3 = document.querySelector('.menuPic3')
             menuPic3.setAttribute('src',menuPicTwo)
-
             let menuPic4 = document.querySelector('.menuPic4')
             menuPic4.setAttribute('src',menuPicThree)
-
         break;
         case 'Contact':
             contentDiv.appendChild(contactPage())
