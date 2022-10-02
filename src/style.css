@@ -14,13 +14,33 @@
     display: flex;
     text-align:end;
 }
+.titleDiv{
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    padding:1rem 1rem 0.25rem 0.5rem;
+    position:absolute;
+    color:aliceblue;
+    top:0rem;
+    left:0.25rem;
+
+}
+.paragraphDiv{
+    position:absolute;
+    color:aliceblue;
+    bottom:0.5rem;
+    right:0.25rem;
+    font-weight: 900;
+}
+.mainImgHolder  {
+    position:relative
+}
 .toContact{
     font-size: larger;
     font-weight: 700;
     text-align:center;
 }
 .header{
-    margin:10px;
     background-color: goldenrod;
 
 }
@@ -35,8 +55,8 @@
     border-radius:2px;
 }
 .mainPic{
-    height:200px;
-    width:400px;
+    
+    width:600px;
     background-color: goldenrod;
     border-radius:5px;
 }
@@ -45,7 +65,7 @@
     width:150px;
     flex:0 0 150px;
     background-color: darkolivegreen;
-    border-radius: 2px;
+    border-radius: 1rem;
 }
 .navItem.selected{
     background-color: rgb(233, 151, 0);
@@ -56,6 +76,7 @@
     flex-direction:column;
     justify-content:space-evenly;
     align-items:center;
+    margin:1em;
     
 }
 .menuItemName{
@@ -76,9 +97,13 @@
     border:2px solid black;
     margin:10px auto;
     width:600px;
+    border-radius: 1em;
+    box-shadow: burlywood 2px;
+    background-color: antiquewhite;
 }
 .menuPic{
     flex:0 0 150px;
+    border-radius: 1em;
 }
 .itemDiv{
     display:flex;
@@ -89,10 +114,14 @@
     flex-direction:column;
     align-items:center;
     justify-content: space-around;
+    margin:1rem;
     
 }
 .contactPic{
     height:200px;
     width:200px;
     background-color: dodgerblue;
+}
+body {
+    background-color: bisque;
 }
