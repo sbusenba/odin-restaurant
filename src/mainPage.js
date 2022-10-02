@@ -8,7 +8,9 @@ titleDiv.innerText = 'Malarky'
 mainDiv.appendChild(titleDiv)
 
 let pic = document.createElement('div')
-pic.classList.add('mainPic')
+let img = document.createElement('img')
+img.classList.add(`mainPic`)
+pic.appendChild(img)
 mainDiv.appendChild(pic)
 
 let paragraphDiv = document.createElement('div')

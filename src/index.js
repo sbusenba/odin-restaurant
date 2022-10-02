@@ -11,6 +11,7 @@ import menuPicOne from './imgs/setting2.jpg'
 import menuPicTwo from './imgs/setting3.jpg'
 import menuPicThree from './imgs/setting4.jpg'
 import menuPicFour from './imgs/setting5.jpeg'
+import mainImg from "./imgs/peter_pan.jpg"
 function clickedNav(){
     while (contentDiv.hasChildNodes()){
         contentDiv.removeChild(contentDiv.firstChild)
@@ -21,6 +22,8 @@ function clickedNav(){
     switch(this.innerText){
         case 'Main':
             contentDiv.appendChild(mainPage())
+            let mainPic = document.querySelector('.mainPic')
+            mainPic.setAttribute('src',mainImg)
         break;
         case 'Menu':
             contentDiv.appendChild(menuPage())
@@ -59,3 +62,5 @@ function addNav(navText){
 let contentDiv = document.querySelector('#content')
 addNav('Main')
 contentDiv.appendChild(mainPage())
+let mainPic = document.querySelector('.mainPic')
+mainPic.setAttribute('src',mainImg)
