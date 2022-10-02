@@ -94,11 +94,10 @@
     display:flex;
     flex-direction:row;
     padding:10px;
-    border:2px solid black;
     margin:10px auto;
     width:600px;
     border-radius: 1em;
-    box-shadow: burlywood 2px;
+    box-shadow: burlywood 2px 2px;
     background-color: antiquewhite;
 }
 .menuPic{
