@@ -5,7 +5,7 @@ const contactPage = () => {
     let contactDiv = document.createElement('div')
     contactDiv.classList.add('contactDiv')
     let mainDiv = document.createElement('div')
-    let pic = document.createElement('div')
+    let pic = document.createElement('img')
     pic.classList.add('contactPic')
     mainDiv.appendChild(pic)  
 

@@ -12,6 +12,7 @@ import menuPicTwo from './imgs/setting3.jpg'
 import menuPicThree from './imgs/setting4.jpg'
 import menuPicFour from './imgs/setting5.jpeg'
 import mainImg from "./imgs/peter_pan.jpg"
+import contactImg from "./imgs/mailman.jpg"
 function clickedNav(){
     while (contentDiv.hasChildNodes()){
         contentDiv.removeChild(contentDiv.firstChild)
@@ -40,6 +41,8 @@ function clickedNav(){
         break;
         case 'Contact':
             contentDiv.appendChild(contactPage())
+            let contactPic = document.querySelector('.contactPic')
+            contactPic.setAttribute('src',contactImg)
             break;
 
 
